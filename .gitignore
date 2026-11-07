@@ -1,0 +1,15 @@
+# Never commit actual firmware or deployment configuration.
+firmware/*
+!firmware/README.md
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+*.log
+*.bin
+*.elf
+*.map
+sdkconfig
+build.options.json
